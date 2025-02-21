@@ -447,9 +447,10 @@
   #style{
     font-family: "Montserrat", serif;
     font-size: 60px;
+    color: #e60000;
   }
   #style:hover{
-    color: red;
+    color:white;
   }
   .hard {
     font-size: 40px;
