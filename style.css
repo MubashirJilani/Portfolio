@@ -529,7 +529,32 @@
     margin: 20px;
     text-align: center;
   }
+
+  .hard{
+    text-align: center;
+  }
   
+  .social-links{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+  }
+  .pen{
+    margin: 30px;
+    font-size: 30px;
+    border: 1px solid rgb(179, 26, 26);
+    height: 65px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e60000;
+    border-radius: 20px;
+  }
+  .pen:hover {
+    background-color: #b41e1e;
+}
   .projects .project img {
     width: 100%;
     height: 200px;
