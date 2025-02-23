@@ -395,6 +395,46 @@
     flex-wrap: wrap;
   }
   
+  .pen {
+    margin: 15px;
+    font-size: 16px;
+    border: 1px solid rgb(179, 26, 26);
+    height: 50px;
+    width: 250px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e60000;
+    border-radius: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .pen:hover {
+    background-color: #b41e1e;
+  }
+  
+  .social-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  @media (max-width: 768px) {
+    .pen {
+      width: 200px; /* Slightly smaller buttons for tablets */
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .pen {
+      width: 150px; /* Even smaller buttons for mobile */
+      font-size: 12px;
+      margin: 10px;
+    }
+  }
+  
   .header .logo {
     font-size: 24px;
   }
