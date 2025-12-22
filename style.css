@@ -675,7 +675,9 @@ footer p {
     position: relative;
     z-index: 2;
 }
-
+.buddy{
+  color: rgb(153, 15, 15);
+}
 .glitch-effect {
     position: absolute;
     top: 0;
